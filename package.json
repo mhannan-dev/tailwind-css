@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build:css": "tailwind build ./src/style.css -o ./dist/output.css --watch"
+  "scripts": { 
+    "build:css": "tailwind build -i ./src/style.css -o ./dist/style.css --watch"
   },
   "keywords": [],
   "author": "",
