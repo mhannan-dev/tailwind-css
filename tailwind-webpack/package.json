@@ -8,7 +8,6 @@
     "dev": "webpack serve",
     "build": "webpack"
   },
-
   "devDependencies": {
     "css-loader": "^7.1.2",
     "postcss": "^8.4.40",
