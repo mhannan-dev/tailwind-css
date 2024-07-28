@@ -1,16 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>Image Gallery</title>
-</head>
-<body>
-  <!-- Background Conainer --->
-  <div class="flex items-center justify-center h-screen bg-zinc-700">
-    <h1>Show here pricing card</h1>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pricing Table Cards</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex items-center justify-center min-h-screen bg-slate-800">
+      <!-- Inner Container  -->
+      <div
+        class="flex flex-col my-6 space-y-6 md:space-y-0 md:space-x-6 md:flex-row md:my-0"
+      >
+        <!-- Column One -->
+        <div class="bg-slate-700 rounded-xl text-white shadow-lg">
+          <!-- Upper Container  -->
+          <div class="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800">
+            <div class="text-center uppercase font-semibold">Basic</div>
+            <h2 class="mt-10 font-serif text-5xl text-center">100GB</h2>
+            <h3 class="mt-2 font-bold text-center">$1.99/Month</h3>
+            <div class="flex justify-center mt-4">
+              <a
+                href="#0"
+                class="inline-block border-2 border-violet-700 text-white py-2 px-10 rounded-lg hover:bg-violet-800 duration-200"
+              >
+                Purchase
+              </a>
+            </div>
+          </div>
+          <div class="border-t border-slate-600"></div>
+          <!-- List Container -->
+          <div class="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800">
+            <div class="flex flex-col space-y-2 font-medium">
+              <!-- List Item -->
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">24/7 Support</span>
+              </div>
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">Unlimited Bandwidth</span>
+              </div>
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">Daily Backups</span>
+              </div>
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">Free SSL Certificate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-violet-700 rounded-xl text-white shadow-lg">
+          <!-- Upper Container  -->
+          <div class="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800">
+            <div class="text-center uppercase font-semibold">Standard</div>
+            <h2 class="mt-10 font-serif text-5xl text-center">200GB</h2>
+            <h3 class="mt-2 font-bold text-center">$3.99/Month</h3>
+            <div class="flex justify-center mt-4">
+              <a
+                href="#0"
+                class="inline-block border-2 bg-violet-700 border-violet-700 text-white py-2 px-10 rounded-lg hover:bg-violet-800 duration-200"
+              >
+                Purchase
+              </a>
+            </div>
+          </div>
+          <div class="border-t border-slate-600"></div>
+          <!-- List Container -->
+          <div class="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800">
+            <div class="flex flex-col space-y-2 font-medium">
+              <!-- List Item -->
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">24/7 Support</span>
+              </div>
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">Unlimited Bandwidth</span>
+              </div>
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">Daily Backups</span>
+              </div>
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">Free SSL Certificate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-700 rounded-xl text-white shadow-lg">
+          <!-- Upper Container  -->
+          <div class="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800">
+            <div class="text-center uppercase font-semibold">Premium</div>
+            <h2 class="mt-10 font-serif text-5xl text-center">1TB</h2>
+            <h3 class="mt-2 font-bold text-center">$8.99/Month</h3>
+            <div class="flex justify-center mt-4">
+              <a
+                href="#0"
+                class="inline-block border-2 border-violet-700 text-white py-2 px-10 rounded-lg hover:bg-violet-800 duration-200"
+              >
+                Purchase
+              </a>
+            </div>
+          </div>
+          <div class="border-t border-slate-600"></div>
+          <!-- List Container -->
+          <div class="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800">
+            <div class="flex flex-col space-y-2 font-medium">
+              <!-- List Item -->
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">24/7 Support</span>
+              </div>
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">Unlimited Bandwidth</span>
+              </div>
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">Daily Backups</span>
+              </div>
+              <div class="flex justify-center items-center space-x-2">
+                <svg
+                  class="w-6 h-6 text-white-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span class="text-slate-400">Free SSL Certificate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
